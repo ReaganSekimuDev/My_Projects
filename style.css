@@ -1,0 +1,228 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  padding: 0px;
+  margin: 0px;
+}
+header{
+  width: 100%;
+  height: 450px;
+  background: rgba(20,60,100,0.5);
+}
+header .head1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  background: rgb(20,60,100);
+  position: fixed;
+}
+header .head1 .logo{
+  
+  width: 20%;
+  height: 100%;
+  border-radius: 50%;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+header .head1 .logo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+header .head1 .menue{
+  width: 50px;
+  height: 50px;
+  border: 2px solid transparent;
+  background: rgb(20,60,100);
+  transition: all 1s;
+  margin-right: 10px;
+  margin-top: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+header .head1 .menue .slashes{
+  width: 50px;
+  height: 50px;
+  border: 2px solid teal;
+  background: rgb(20,60,100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .head1 .menue .slashes .slash{
+  width: 85%;
+  height: 0;
+  border: 1.5px solid green;
+  background: rgb(20,60,100);
+  position: relative;
+  transition: all 1s;
+}
+header .head1 .menue .slashes #slash1{
+  margin-top: 13px;
+}
+header .head1 .menue nav{
+  background: rgb(30,100,100);
+  width: 100%;
+  height: auto;
+  transition: all 1s;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+  display: none;
+  
+}
+header .head1 .menue nav ul{
+  background: green;
+  width: 100%;
+}
+header .head1 .menue nav ul li{
+  list-style-type: none;
+  font-weight: bold;
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+header .head1 .menue nav ul li a{
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+header .head1 .menue nav ul li:hover{
+  list-style-type: none;
+  background: rgb(50,100,200);
+}
+header .head1 .menue .slashes #slash2{
+  margin-top: 16px;
+}
+header .head2{
+  width: 100%;
+  height:83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .head2 #text h1{
+  color: rgb(50,24,0);
+  text-align: center;
+}
+header .head2 #text h2{
+  color: rgb(50,24,50);
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  background: rgba(30,70,90,0.3);
+}
+body h2{
+  text-align: center;
+}
+main .section1{
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+main section{
+  margin-top: 100px;
+  text-align: center;
+  font-family: Arial;
+}
+main section img{
+  width: 100%;
+  height: 350px;
+  border: 2px groove purple;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+main section h2{
+  color: rgb(10,130,150);
+  background: rgb(50,30,20);
+  padding: 15px;
+  font-family: Times New Roman;
+  font-size: 30px;
+}
+main .section a{
+  text-decoration: none;
+}
+main .section4 h2{
+  text-decoration: none;
+  background: rgb(40,100,180);
+  width: 60%;
+  border-radius: 1em;
+  outline: none;
+  color: gold;
+}
+main .section5 h2{
+  text-decoration: none;
+  background: rgb(40,100,180);
+  width: 60%;
+  border-radius: 1em;
+  color: gold;
+  outline: none;
+}
+main .section5 h2:hover{
+  text-decoration: none;
+  background: rgb(40,100,90);
+  width: 70%;
+  border-radius: 1em;
+}
+main .section4 h2:hover{
+  text-decoration: none;
+  background: rgb(40,100,90);
+  width: 70%;
+  border-radius: 1em;
+}
+main section article{
+  font-family: arial;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+footer{
+  width: 100%;
+  height: 500px;
+  background: black;
+  color: white;
+  margin-top: 50px;
+}
+footer section{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+footer section #section1{
+  margin-top: 50px;
+  margin-top: 50px;
+  width: 100%;
+}
+footer section #section1 .support{
+  float: right;
+}
+footer section #section1 .support li{
+  list-style-type: none;
+  font-size: 15px;
+  padding: 8px;
+}
+footer section #section1 .Adress span{
+  display: block;
+  margin-top:10px;
+}
+footer section #section2 {
+  margin: 0 auto;
+}
+footer section #section2 img{
+  width: 60px;
+  height: 60px;
+  margin-left: 12px;
+  border: 2px groove aqua;
+  border-radius: 50%;
+  background: bla;
+}
